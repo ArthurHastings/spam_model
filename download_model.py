@@ -21,4 +21,4 @@ class MyModel(mlflow.pyfunc.PythonModel):
         return self.model.predict(model_input)
 
 # Save the model to the specified directory
-mlflow.pyfunc.save_model(path=model_dir, python_model=MyModel())
+mlflow.pyfunc.save_model(path=model_dir, python_model=MyModel())# ༼ つ ◕_◕ ༽つ
