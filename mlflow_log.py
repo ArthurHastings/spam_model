@@ -5,7 +5,7 @@ import tensorflow as tf
 from mlflow_func import SpamModelWrapper
 
 # No need to set tracking URI here if using ngrok directly
-mlflow.set_tracking_uri("https://7030-2a02-2f04-530c-c000-511d-87f7-111d-1a6f.ngrok-free.app")
+mlflow.set_tracking_uri("https://4e64-2a02-2f04-530c-c000-511d-87f7-111d-1a6f.ngrok-free.app")
 # Assuming MLflow server is running with ngrok on the GitHub Actions environment
 
 artifacts = {
