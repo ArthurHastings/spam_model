@@ -3,7 +3,7 @@ import mlflow.pyfunc
 import os
 
 # Set the tracking URI for MLflow server
-mlflow.set_tracking_uri("https://7030-2a02-2f04-530c-c000-511d-87f7-111d-1a6f.ngrok-free.app")
+mlflow.set_tracking_uri("https://98f7-2a02-2f04-530c-c000-511d-87f7-111d-1a6f.ngrok-free.app")
 
 # Set the model URI and the destination directory
 model_uri = "models:/spam_detector_raw/1"  # Replace with your model's name and version
