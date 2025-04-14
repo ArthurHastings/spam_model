@@ -9,8 +9,8 @@ mlflow.set_tracking_uri("https://7030-2a02-2f04-530c-c000-511d-87f7-111d-1a6f.ng
 # Assuming MLflow server is running with ngrok on the GitHub Actions environment
 
 artifacts = {
-    "model": os.path.join("spam_model", "spam_model.keras").replace("\\", "/"),
-    "tokenizer": os.path.join("spam_model", "tokenizer_spam.pkl").replace("\\", "/")
+    "model": os.path.join("spam_model", "spam_model.keras"),
+    "tokenizer": os.path.join("spam_model", "tokenizer_spam.pkl")
 }
 
 mlflow.pyfunc.log_model(
