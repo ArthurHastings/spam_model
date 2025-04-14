@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/157990a3c9db4cf5878f1f5fd664cbcc/artifacts
+end_time: 1744657606243
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 157990a3c9db4cf5878f1f5fd664cbcc
+run_name: clean-shrimp-800
+run_uuid: 157990a3c9db4cf5878f1f5fd664cbcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744657605985
+status: 3
+tags: []
+user_id: User

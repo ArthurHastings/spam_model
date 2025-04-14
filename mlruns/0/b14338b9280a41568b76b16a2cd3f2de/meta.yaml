@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b14338b9280a41568b76b16a2cd3f2de/artifacts
+end_time: 1744657489618
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b14338b9280a41568b76b16a2cd3f2de
+run_name: invincible-fox-398
+run_uuid: b14338b9280a41568b76b16a2cd3f2de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744657489359
+status: 3
+tags: []
+user_id: User

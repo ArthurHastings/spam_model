@@ -1,0 +1,25 @@
+artifact_path: wrapped_spam_model
+flavors:
+  python_function:
+    artifacts:
+      model:
+        path: artifacts\spam_model.keras
+        uri: spam_model.keras
+      tokenizer:
+        path: artifacts\tokenizer_spam.pkl
+        uri: tokenizer_spam.pkl
+    cloudpickle_version: 3.1.1
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.11.6
+    streamable: false
+mlflow_version: 2.21.2
+model_size_bytes: 2769972
+model_uuid: 755d00e4d28e44f588e43c9cde856371
+prompts: null
+run_id: a2158ea1dad24aa2a09c135403f3d8d2
+utc_time_created: '2025-04-14 19:12:32.720190'
