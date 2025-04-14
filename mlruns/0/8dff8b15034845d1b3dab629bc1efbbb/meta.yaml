@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8dff8b15034845d1b3dab629bc1efbbb/artifacts
+end_time: 1744659160896
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8dff8b15034845d1b3dab629bc1efbbb
+run_name: gaudy-snake-13
+run_uuid: 8dff8b15034845d1b3dab629bc1efbbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744659148436
+status: 3
+tags: []
+user_id: User
