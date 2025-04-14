@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e671a39ede0d4f34a8f79bd8a68d9198/artifacts
+end_time: 1744655643836
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e671a39ede0d4f34a8f79bd8a68d9198
+run_name: nimble-sponge-358
+run_uuid: e671a39ede0d4f34a8f79bd8a68d9198
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744655628672
+status: 3
+tags: []
+user_id: User

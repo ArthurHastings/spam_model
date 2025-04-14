@@ -1,18 +1,21 @@
 import mlflow.pyfunc
 import os
-
+import pickle
+import tensorflow as tf
 from mlflow_func import SpamModelWrapper
 
-mlflow.set_tracking_uri("http://localhost:5000")
+# No need to set tracking URI here if using ngrok directly
+mlflow.set_tracking_uri("https://7030-2a02-2f04-530c-c000-511d-87f7-111d-1a6f.ngrok-free.app")
+# Assuming MLflow server is running with ngrok on the GitHub Actions environment
 
 artifacts = {
-    "model": "spam_model.keras",
-    "tokenizer": "tokenizer_spam.pkl"
+    "model": os.path.join("spam_model", "spam_model.keras").replace("\\", "/"),
+    "tokenizer": os.path.join("spam_model", "tokenizer_spam.pkl").replace("\\", "/")
 }
 
 mlflow.pyfunc.log_model(
     artifact_path="wrapped_spam_model",
     python_model=SpamModelWrapper(),
-    artifacts={"model": os.path.join("artifacts", "spam_model.keras").replace("\\", "/")},
+    artifacts=artifacts,
     registered_model_name="spam_detector_raw"
 )

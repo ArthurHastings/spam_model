@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1744655643793
+current_stage: None
+description: ''
+last_updated_timestamp: 1744655643793
+name: spam_detector_raw
+run_id: e671a39ede0d4f34a8f79bd8a68d9198
+run_link: ''
+source: mlflow-artifacts:/0/e671a39ede0d4f34a8f79bd8a68d9198/artifacts/wrapped_spam_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/0/e671a39ede0d4f34a8f79bd8a68d9198/artifacts/wrapped_spam_model
+user_id: null
+version: 2
