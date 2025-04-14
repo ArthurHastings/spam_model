@@ -21,7 +21,20 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install mlflow pandas scikit-learn tensorflow
+          pip install mlflow==2.21.2 cloudpickle==3.0.0
+          pip install --no-cache-dir attrs==25.1.0
+          pip install --no-cache-dir cloudpickle==3.1.1
+          pip install --no-cache-dir defusedxml==0.7.1
+          pip install --no-cache-dir dill==0.3.8
+          pip install --no-cache-dir huggingface
+          pip install --no-cache-dir ipython==8.32.0
+          pip install --no-cache-dir matplotlib==3.10.0
+          pip install --no-cache-dir numpy==1.26.4
+          pip install --no-cache-dir pandas==2.2.3
+          pip install --no-cache-dir psutil==7.0.0
+          pip install --no-cache-dir scikit-learn==1.6.1
+          pip install --no-cache-dir scipy==1.13.1
+          pip install --no-cache-dir tensorflow==2.16.1
 
       - name: Download MLflow model
         run: |
