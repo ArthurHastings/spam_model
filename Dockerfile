@@ -20,13 +20,12 @@ RUN pip install --no-cache-dir cloudpickle==3.1.1
 RUN pip install --no-cache-dir defusedxml==0.7.1
 RUN pip install --no-cache-dir dill==0.3.8
 RUN pip install --no-cache-dir huggingface
-RUN pip install --no-cache-dirhub==0.29.3
 RUN pip install --no-cache-dir ipython==8.32.0
 RUN pip install --no-cache-dir matplotlib==3.10.0
 RUN pip install --no-cache-dir numpy==1.26.4
 RUN pip install --no-cache-dir pandas==2.2.3
 RUN pip install --no-cache-dir psutil==7.0.0
-RUN pip install --no-cache-dir scikitRUN pip install --no-cache-dirlearn==1.6.1
+RUN pip install --no-cache-dir scikit-learn==1.6.1
 RUN pip install --no-cache-dir scipy==1.13.1
 RUN pip install --no-cache-dir tensorflow==2.16.1
 

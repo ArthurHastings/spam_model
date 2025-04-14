@@ -66,6 +66,7 @@ neurons = [64]
 dropouts = [0.3]
 learning_rates = [0.0005]
 
+print("ZAZA")
 
 param_combinations = list(itertools.product(optimizers, batch_sizes, epochs_list, neurons, dropouts, learning_rates))
 
