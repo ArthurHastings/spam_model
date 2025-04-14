@@ -1,4 +1,5 @@
 import mlflow.pyfunc
+import os
 
 from mlflow_func import SpamModelWrapper
 
@@ -12,6 +13,6 @@ artifacts = {
 mlflow.pyfunc.log_model(
     artifact_path="wrapped_spam_model",
     python_model=SpamModelWrapper(),
-    artifacts=artifacts,
+    artifacts={"model": os.path.join("artifacts", "spam_model.keras").replace("\\", "/")},
     registered_model_name="spam_detector_raw"
 )
