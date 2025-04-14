@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/670134192688655732
+creation_time: 1744643757290
+experiment_id: '670134192688655732'
+last_update_time: 1744643757290
+lifecycle_stage: active
+name: SPAM_DETECTION_MODELV1

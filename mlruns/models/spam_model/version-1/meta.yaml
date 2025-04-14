@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1744645393589
+current_stage: None
+description: ''
+last_updated_timestamp: 1744645393589
+name: spam_model
+run_id: 0f5fd4a5bc0c4fcaa6550da6615a17fb
+run_link: ''
+source: mlflow-artifacts:/670134192688655732/0f5fd4a5bc0c4fcaa6550da6615a17fb/artifacts/cnn_model_run1
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/670134192688655732/0f5fd4a5bc0c4fcaa6550da6615a17fb/artifacts/cnn_model_run1
+user_id: null
+version: 1

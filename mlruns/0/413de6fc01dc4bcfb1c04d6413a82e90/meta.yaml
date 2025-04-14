@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/413de6fc01dc4bcfb1c04d6413a82e90/artifacts
+end_time: 1744645789190
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 413de6fc01dc4bcfb1c04d6413a82e90
+run_name: calm-deer-254
+run_uuid: 413de6fc01dc4bcfb1c04d6413a82e90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744645777741
+status: 3
+tags: []
+user_id: User

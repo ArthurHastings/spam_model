@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/98c2398c1c084d1da36ce266b61476dd/artifacts
+end_time: 1744645631649
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98c2398c1c084d1da36ce266b61476dd
+run_name: fun-grouse-650
+run_uuid: 98c2398c1c084d1da36ce266b61476dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744645618736
+status: 3
+tags: []
+user_id: User

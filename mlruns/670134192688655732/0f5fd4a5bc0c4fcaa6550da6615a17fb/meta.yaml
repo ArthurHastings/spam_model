@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/670134192688655732/0f5fd4a5bc0c4fcaa6550da6615a17fb/artifacts
+end_time: 1744645142496
+entry_point_name: ''
+experiment_id: '670134192688655732'
+lifecycle_stage: active
+run_id: 0f5fd4a5bc0c4fcaa6550da6615a17fb
+run_name: Run_1_Opt-adam_BS-32_Ep-35_Neurons-64_Dropout-0.3_LR-0.0005
+run_uuid: 0f5fd4a5bc0c4fcaa6550da6615a17fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744644950637
+status: 3
+tags: []
+user_id: User
